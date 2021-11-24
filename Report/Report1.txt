@@ -1,0 +1,91 @@
+Library is place where all kind of books are available. Intranet Library Management system is a web
+based application. This system contains list of all the books and can be accessed by remote users 
+concurrently from any where in the campus. But for that users must be registered user. This system 
+is three tier architecture.
+Client sends requests, on receiving the request the server processes it and extracts the data from 
+database and sends the result back to the client. This system provides separate interface and login for librarian, students and faculties. Librarian can modify database.
+Users can search for books and renewal books online. They can recommend for new books by just 
+sending messages to the librarian from any where in the college. They can view the issue and return
+dates of any book and due they have to pay. This system generates reports that can be used in analyz
+ing the library performance. Thus the management can take appropriate steps to improve the facilities.
+
+INDEX
+                                                                                                                  
+                                                                                                
+1. INTRODUCTION
+
+2. ANALYSIS
+
+2.1 SYSTEM ANALYSIS
+
+2.2 SYSTEM SECIFICATIONS
+
+3. DESIGN APPROACH
+
+3.1 INTRODUCTION TO DESIGN
+
+3.2 UML DIAGRAMS
+
+3.3 DATA FLOW DIAGRAMS
+
+3.4 E-R DIAGRAMS
+
+4. PROJECT MODULES
+
+5. IMPLEMENTATION
+
+4.1 CONCEPTS AND TECHNIQUES
+
+4.2 TESTING
+
+4.2.1 TEST CASES
+
+6. OUTPUT SCREENS
+
+7. CONCLUSION
+
+8. FUTURE ENHANCEMENTS
+
+9. BIBILIOGRAPHY
+
+ INTRODUCTION:
+
+ Library Management System consists of list of records about the management of the details of the 
+students and the issues going on and also about some books and all. This is a web-based application. The project has three modules namely- User, Registration, Librarian. According to the Modules the Distributor and Sub Distributors can manage and do their activities in easy manner.
+As the modern organizations are automated and computers are working as per the instructions, it 
+becomes essential for the coordination of human beings, commodity and computers in a modern organiza
+tion. This information helps the distributors to purchase or sale the products very efficiently.
+
+The administrators and all the others can communicate with the system through this project, thus 
+facilitating effective implementation and monitoring of various activities of the distributor of a 
+supermarket.
+
+SYSTEM ANALYSIS OF LIBRARY MANAGEMENT SYSTEM PROJECT 
+
+1. Existing System
+
+Various problems of physical system are described below :-
+·If one is not very careful then there is a possibility of issuing more than one book to a user.
+· There is a possibility of issuing a book to a user, whose membership is not there.
+· When a user requests for the a book, one has to physically check for the presence of a book in the library
+· Answering management query is a time consuming process.  
+·Daily keeping a manual record of changes taking place in the library such as book being issued, book being
+returned etc can become cumbersome if the Library size is bigger.
+
+
+2. Proposed System
+
+The LIBRARY MANAGEMENT SYSTEM is a software application which avoids more manual hours in taking 
+the book, that need to spend in record keeping and generating reports. Maintaining of user details 
+is complex in manual system in terms of agreements, royalty and activities. This all have to be 
+maintained in ledgers or books. Co-coordinators needs to verify each record for small information 
+also.
+·Easy search of book in the online library.
+·Avoid the manual work.
+·ser need not go to the library for Issue any kind of book, he can renewal the      book online.                                                                                                                                                    
+3. Objective of the System
+
+The goal of the system is to bring down the work load with the increased efficiency and to speed up
+ the activities. With this it is very easy to process course fee that is collected time to time from
+ students who are registered and studying at franchisees.
+
