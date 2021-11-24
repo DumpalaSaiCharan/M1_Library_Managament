@@ -1,0 +1,117 @@
+Implementation:
+
+       Implementation is the stage where the theoretical design is turned into a working system. The most crucial stage 
+in achieving a new successful system and in giving confidence on the new system for the users that it will work efficiently
+and effectively.
+The system can be implemented only after thorough testing is done and if it is found to work according to the specification.
+
+It involves careful planning, investigation of the current system and its constraints on implementation, design of methods
+to achieve the change over and an evaluation of change over methods a part from planning. Two major tasks of preparing the 
+implementation are education and training of the users and testing of the system.
+
+>The more complex the system being implemented, the more involved will be the systems analysis and design effort required 
+just for implementation.
+>The implementation phase comprises of several activities. 
+>The required hardware and software acquisition is carried out. The system may require some software to be developed. 
+For this, programs are written and tested. The user then changes over to his new fully tested system and the old system is 
+discontinued.
+
+TESTING:
+ 
+  The testing phase is an important part of software development. It is the puterized system will help in automate process
+ of finding errors and missing operations and also a complete verification to determine whether the objectives are met and
+ the user requirements are satisfied.
+
+Software testing is carried out in three steps:
+  
+1.The first includes unit testing, where in each module is tested to provide its correctness, validity and also determine
+ any missing operations and to verify whether the objectives have been met. Errors are noted down and corrected immediately.
+ Unit testing is the important and major part of the project. So errors are rectified easily in particular module and program 
+ clarity is increased. In this project entire system is divided into several modules and is developed individually.  
+ So unit testing is conducted to individual modules.
+2.The second step includes Integration testing. It need not be the case, the software whose modules when run individually and
+ showing perfect results, will also show perfect results when run as a whole. The individual modules are clipped under this major
+ module and tested again and verified the results. This is due to poor interfacing, which may results in data being lost across 
+ an interface. A module can have inadvertent, adverse effect on any other or on the global data structures, causing serious problems.
+3.The final step involves validation and testing which determines which the software functions as the user expected. Here also 
+some modifications were. In the completion of the project it is satisfied fully by the end user.
+
+
+Testing Objectives:
+1.Testing is a process of executing a program with the intent of finding an error
+2.A good test case is one that has a probability of finding an as yet undiscovered error
+3. A successful test is one that uncovers an undiscovered error
+Testing Principles:
+·   All tests should be traceable to end user requirements
+·   Tests should be planned long before testing begins
+·   Testing should begin on a small scale and progress towards testing in large
+·   Exhaustive testing is not possible
+·   To be most effective testing should be conducted by a independent third party
+
+The primary objective for test case design is to derive a set of tests that has the highest livelihood for uncovering
+ defects in software. To accomplish this objective two different categories of test case design techniques are used.
+ They are
+
+White-box testing:
+
+White box testing focus on the program control structure. Test cases are derived to ensure that all statements in the
+ program have been executed at least once during testing and that all logical conditions have been executed.
+
+Block-box testing:
+
+Black box testing is designed to validate functional requirements without regard to the internal workings of a program.
+Black box testing mainly focuses on the information domain of the software, deriving test cases by partitioning 
+input and output in a manner that provides through test coverage. Incorrect and missing functions, interface errors, 
+errors in data structures, error in functional logic are the errors falling in this category.
+
+Testing strategies:
+
+A strategy for software testing must accommodate low-level tests that are necessary to verify that all small source code
+segment has been correctly implemented as well as high-level tests that validate major system functions against customer 
+requirements.
+
+Testing fundamentals:
+
+Testing is a process of executing program with the intent of finding error. A good test case is one that has high
+ probability of finding an undiscovered error. If testing is conducted successfully it uncovers the errors in the 
+software. Testing cannot show the absence of defects, it can only show that software defects present.
+
+Testing Information flow:
+
+Information flow for testing flows the pattern. Two class of input provided to test the process. The software 
+configuration includes a software requirements specification, a design specification and source code.
+Test configuration includes test plan and test cases and test tools. Tests are conducted and all the results are evaluated.
+That is test results are compared with expected results. When erroneous data are uncovered, an error is implied and debugging 
+commences.
+
+Unit testing:
+
+Unit testing is essential for the verification of the code produced during the coding phase and hence the goal is to test the
+ internal logic of the modules.  Using the detailed design description as a guide, important paths are tested to uncover errors 
+with in the boundary of the modules.  These tests were carried out during the programming stage itself. All units of ViennaSQL 
+were successfully tested.
+
+Integration testing :
+
+Integration testing focuses on unit tested modules and build the program structure that is dictated by the design phase.
+
+System testing:
+
+System testing tests the integration of each module in the system. It also tests to find discrepancies between the system 
+and it’s original objective, current specification and system documentation. The primary concern is the compatibility of 
+individual modules. Entire system is working properly or not will be tested here, and specified path ODBC connection will
+correct or not, and giving output or not are tested here these verifications and validations are done by giving input 
+values to the system and by comparing with  expected output. Top-down testing implementing here.
+
+ACCEPTANCE TESTING:
+
+This testing is done to verify the readiness of the system for the implementation. Acceptance testing begins when 
+the system is complete. Its purpose is to provide the end user with the confidence that the system is ready for use.
+ It involves planning and execution of functional tests, performance tests and stress tests in order to demonstrate 
+that the implemented system satisfies its requirements.
+
+Tools to special importance during acceptance testing include:
+
+Test coverage Analyzer – records the control paths followed for each test case.
+Timing Analyzer – also called a profiler, reports the time spent in various regions of the code are areas to concentrate on to improve system performance.
+Coding standards – static analyzers and standard checkers are used to inspect code for deviations from standards and guidelines.
